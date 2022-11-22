@@ -5,7 +5,7 @@ const os = require('os');
 const axios = require('axios');
 const path = require('path');
 
-const WINDOWS = 'Windows_NT';
+const WINDOWS = 'Windows_Normal';
 const MACOS = 'Darwin';
 const LINUX = 'Linux';
 const USERNAME = os.userInfo().username;
